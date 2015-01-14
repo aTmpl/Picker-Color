@@ -1,0 +1,81 @@
+/*!
+ * Picker Color v1.0 (http://atmpl.ru/publ/adaptive_elements/generator_cvetov_hsl_hsla_rgb_rgba_hex/22-1-0-54)
+ * Copyright 2014-2015 aTmpl.ru.
+ * Licensed under MIT (https://github.com/aTmpl/Picker-Color/blob/master/LICENSE)
+ */
+*:focus,
+*:active {
+	outline: 0;
+}
+#hsl-example {
+  height:140px;
+  background-color:hsla(190, 100%, 68%, 1); 
+  padding:15px; 
+  color:#fff; 
+  text-shadow:2px 2px 2px rgba(0,0,0,0.4); 
+  font-size:2rem; 
+  font-weight:bold;
+  text-align:center;
+}
+#hslas, #hslal, #hslaa, #hslah {width: 100%;}
+/* Webkit */
+.safari input[type=range],
+.chrome input[type=range], 
+.opera input[type=range] {
+	-webkit-appearance: none;
+	width: 100%;
+	border-radius: 8px;
+	height: 7px;
+	border: 1px solid #bdc3c7;
+	background-color: #fff; 
+}
+.safari input[type='range']::-webkit-slider-thumb,
+.chrome input[type='range']::-webkit-slider-thumb,
+.opera input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* Mozilla */
+.firefox input[type=range] {
+	width: 100%;
+}
+.firefox input[type=range]::-moz-range-track {
+	border-radius: 8px;
+	height: 7px;
+	border: 1px solid #bdc3c7;
+	background-color: #fff;
+}
+.firefox input[type=range]::-moz-range-thumb {
+	background: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* Internet Explorer */
+.ie input[type="range"]::-ms-fill-lower,
+.ie input[type="range"]::-ms-fill-upper {
+	background: transparent;
+}
+.ie input[type="range"]::-ms-track {
+        border-radius: 8px;
+	height: 7px;
+	border: 1px solid #bdc3c7;
+	background-color: #fff;
+}
+.ie input[type="range"]::-ms-thumb {
+	background-color: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
