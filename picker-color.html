@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Генератор цветов - Picker Color</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="publisher" href="https://plus.google.com/106292100743979527533"/>
+<link href="picker-color.css" rel="stylesheet" />
+<link href="//atmpl.ru/assets/css/bootstrap.css" rel="stylesheet" />
+<script src="//atmpl.ru/assets/js/jquery-1.10.2.js"></script>
+<script src="//atmpl.ru/assets/js/bootstrap.min.js"></script>
+<script src="picker-color.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row text-center">
+<div class="col-md-12">
+<div class="col-md-6">
+<table class="table">
+<tr>
+<td>
+<span class="hsl-value" id="hsl-h-value">190</span>
+<td>
+<input id="hsl-h" type="range" min="0" max="360" value="190" onChange="changeHSL()">
+<span id="hslah"></span>
+<td><span>H</span>
+</tr>
+<tr>
+<td>
+<span class="hsl-value" id="hsl-s-value">100%</span>
+<td>
+<input id="hsl-s" type="range" min="0" max="100" value="100" onChange="changeHSL()">
+<span id="hslas"></span>
+<td><span>S</span>
+</tr>
+<tr>
+<td>
+<span class="hsl-value" id="hsl-l-value">68%</span>
+<td>
+<input id="hsl-l" type="range" min="0" max="100" value="68" onChange="changeHSL()">
+<span id="hslal"></span>
+<td><span>L</span>
+</tr>
+<tr>
+<td>
+<span class="hsl-value" id="hsl-a-value">1.00</span>
+<td>
+<input id="hsl-a" type="range" min="0" max="100" value="100" onChange="changeHSL()">
+<span id="hslaa"></span>
+<td><span>A</span>
+</tr>
+</table>
+</div>
+<div class="col-md-6">
+<div id="hsl-example" style="">HSLA Colors</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
